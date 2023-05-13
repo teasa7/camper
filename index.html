@@ -6,53 +6,82 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./libs/AutoComplete/css/autoComplete.01.css">
     <title>Camper - Ваш туристический гид</title>
 </head>
 
 <body>
     <header class="header">
         <div class="container container--header">
-            <div class="item">
-                <nav class="nav">
-                    <a class="logo" href="index.html">
-                        <img src="/img/icons/logo.svg" alt="Camper">
-                    </a>
-                    <ul class="nav-list">
-                        <li class="nav-list__item">
-                            <a class="nav-list__link active" href="#">Hotels</a>
-                        </li>
-                        <li class="nav-list__item">
-                            <a class="nav-list__link active" href="#">Camping</a>
-                        </li>
-                        <li class="nav-list__item">
-                            <a class="nav-list__link active" href="#">Booking</a>
-                        </li>
-                        <li class="nav-list__item">
-                            <a class="nav-list__link active" href="#">Tours</a>
-                        </li>
-                        <li class="nav-list__item">
-                            <a class="nav-list__link" href="#">Contacts</a>
-                        </li>
-                    </ul>
-                    <div class="user">
-                        <div class="user__contact">
-                            <span class="user__hello">Hello,</span>
-                            <span class="user__name">Maria Smit</span>
-                        </div>
-                        <div class="user__avatar">
-                            <img class="user__img" src="./img/avatar.jpg" alt="user">
-                        </div>
+            <nav class="nav">
+                <a class="logo" href="index.html">
+                    <img src="/img/icons/logo.svg" alt="Camper">
+                </a>
+                <ul class="nav-list">
+                    <li class="nav-list__item">
+                        <a class="nav-list__link active" href="#">Hotels</a>
+                    </li>
+                    <li class="nav-list__item">
+                        <a class="nav-list__link active" href="#">Camping</a>
+                    </li>
+                    <li class="nav-list__item">
+                        <a class="nav-list__link active" href="#">Booking</a>
+                    </li>
+                    <li class="nav-list__item">
+                        <a class="nav-list__link active" href="#">Tours</a>
+                    </li>
+                    <li class="nav-list__item">
+                        <a class="nav-list__link" href="#">Contacts</a>
+                    </li>
+                </ul>
+                <div class="user">
+                    <div class="user__contact">
+                        <span class="user__hello">Hello,</span>
+                        <span class="user__name">Maria Smit</span>
                     </div>
-                    
-                    
-                </nav>
+                    <div class="user__avatar">
+                        <img class="user__img" src="./img/avatar.jpg" alt="user">
+                    </div>
+                </div>
+            </nav>
+            <div class="header__content">
+                <h1 class="header__title">Travel around the world</h1>
+                <button class="button button--big">
+                    <img src="/img/icons/globe.svg">
+                    <span>Start the journey</span>
+                </button>
             </div>
-            <div class="item">
-
-            </div>
-            <div class="item">
-
-            </div>
+            <form class="form" action="">
+                <div class="form__input-wrapper form__input--location">
+                    <label for="location" class="form__label">Location</label>
+                    <input type="text" class="form__input" name="location" id="location" placeholder="Show nearby places">
+                </div>
+                <div class="form__input-wrapper form__input--date">
+                    <label for="date" class="form__label">Date</label>
+                    <input type="date" class="form__input" id="date">
+                </div>
+                <div class="form__input-wrapper form__input--activity">
+                    <label for="activity" class="form__label">Activity</label>
+                    <select name="activity" id="activity" class="form__select">
+                        <option value="all">All activities</option>
+                        <option value="culture">Culture</option>
+                        <option value="sport">Sport</option>
+                        <option value="extreme">Extreme</option>
+                    </select>
+                </div>
+                <div class="form__input-wrapper form__input--guests">
+                    <label for="group" class="form__label">Guests</label>
+                    <select name="activity" id="activity" class="form__select">
+                        <option value="1">1 guest</option>
+                        <option value="2">2 guest</option>
+                        <option value="3">3 guests</option>
+                        <option value="more">4 guests or more</option>
+                    </select>
+                </div>
+                <button class="button button--search">
+                    <img src="/img/icons/search.svg" alt="Search">
+                </button>
+            </form>
         </div>
 
 
@@ -62,6 +91,8 @@
     <footer>
 
     </footer>
+    <script src="./libs/AutoComplete/js/autoComplete.min.js"></script>
+    <script src="./js/input-dest.js"></script>
 </body>
 
 </html>

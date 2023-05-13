@@ -1,4 +1,5 @@
 @import "./reset.css";
+@import "./buttons.css";
 @import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700&display=swap');
 
@@ -91,5 +92,70 @@ body {
 .user__img {
     width: 50px;
     border-radius: 50%;
-    border: 2px solid #0A6113;
+    border: 2px solid #3BBD48;
+}
+
+/* Header content */
+
+.header__content {
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    align-items: center;
+    text-align: center;
+}
+.header__title {
+    color: black;
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 1;
+}
+
+/* Form */
+
+.form {
+    max-width: 1140px;
+    height: 80px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 15px;
+    color: black;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+.form__input-wrapper {
+    display: flex;
+    flex-direction: column;
+    padding: 15px 15px 15px 50px;
+    background-repeat: no-repeat;
+    background-position: 15px 50%;
+}
+.form__input--location {
+    max-width: 300px;
+    background-image: url("/img/icons/location.svg");
+}
+.form__input--activity {
+    max-width: 250px;
+    background-image: url("/img/icons/active.svg");
+}
+.form__input--date {
+    max-width: 250px;
+    background-image: url("/img/icons/date.svg");
+}
+.form__input--guests {
+    max-width: 250px;
+    background-image: url("/img/icons/group.svg");
+}
+.form__label {
+    font-size: 14px;
+    font-weight: 300;
+    color:rgb(54, 54, 54);
+}
+.form__input {
+    font-weight: 500;
+    font-size: 16px;
+}
+.form__input::placeholder {
+    color:black;
 }
