@@ -1,7 +1,95 @@
 @import "./reset.css";
 @import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700&display=swap');
 
 body {
     font-family: 'Raleway', sans-serif;
+}
+.container {
+    margin: 0 auto;
+    max-width: 1440px;
+    padding: 0 20px;
+}
+
+.header {
+    padding: 20px 0 100px;
+    height: 800px;
+    color: black;
+    background-image: url("../img/background.jpg");
+    background-size: cover;
+    background-position: center center;
+    border-radius: 0 0 50px 50px;
+}
+.header a {
+    color: black;
+}
+.container--header {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 30px;
+}
+.nav-list {
+    display: flex;
+    column-gap: 60px;
+    font-size: 14px;
+    font-weight: 500;
+}
+.logo {
+    flex-shrink: 0;
+}
+.logo img {
+    width: 120px;
+}
+.nav-list__link {
+    opacity: 0.7;
+}
+.active {
+    opacity: 1;
+}
+.user {
+    display: flex;
+    column-gap: 10px;
+    align-items: center;
+    font-size: 12px;
+}
+.user__contact {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.user__hello {
+    opacity: 0.6;
+}
+.user__name {
+    font-weight: 500;
+    text-align: right;
+}
+
+.user__avatar {
+    position: relative;
+    flex-shrink: 0;
+}
+.user__avatar::after {
+    content: "";
+    display: block;
+    width: 12px;
+    height: 12px;
+    background-color: rgb(207, 18, 18);
+    position: absolute;
+    right: 0;
+    top: 0;
+    border-radius: 50%;
+}
+.user__img {
+    width: 50px;
+    border-radius: 50%;
+    border: 2px solid #0A6113;
 }
