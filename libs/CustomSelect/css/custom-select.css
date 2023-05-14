@@ -1,0 +1,69 @@
+.custom-select-container {
+    position: relative;
+    box-sizing: border-box;
+    font-weight: 500;
+}
+
+.custom-select-container * {
+    box-sizing: border-box;
+}
+
+.custom-select-container.is-disabled {
+    opacity: .333;
+}
+
+.custom-select-opener {
+    background-color: #fff;
+    padding: 0;
+    display: block;
+    cursor: pointer;
+    width: 100%;
+}
+
+.custom-select-container select {
+    visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.custom-select-panel {
+    max-height: 0;
+    transition: max-height .5s ease-out, overflow-y 0.1s 0.5s;
+    overflow: hidden;
+    background-color: #fff;
+    position: absolute;
+    top: 100%;
+    z-index: 1;
+    width: auto;
+}
+
+.custom-select-container.is-open .custom-select-panel {
+    max-height: 10.7em;
+    overflow-y: auto;
+    border-radius: 5px;
+}
+
+.custom-select-option {
+    padding: 0.5em;
+}
+
+.custom-select-option.has-focus {
+    background-color: #3BBD48;
+}
+
+.custom-select-option.is-selected::before {
+    content: "✓";
+    padding-right: 0.5em;
+}
+
+.custom-select-optgroup>.custom-select-option {
+    padding-left: 2em;
+}
+
+.custom-select-optgroup::before {
+    content: attr(data-label);
+    display: block;
+    padding: 0.5em;
+    color: #fff;
+}

@@ -4,15 +4,13 @@
 }
 
 .autoComplete_wrapper > input {
-  width: 370px;
-  height: 40px;
-  padding-left: 20px;
+  width: 100%;
   font-size: 1rem;
-  color: rgba(123, 123, 123, 1);
+  color: rgb(0, 0, 0);
   border-radius: 8px;
   border: 0;
   outline: none;
-  background-color: #f1f3f4;
+  background-color: #ffffff;
 }
 
 .autoComplete_wrapper > input::placeholder {
@@ -72,7 +70,7 @@
 
 .autoComplete_wrapper > ul > li mark {
   background-color: transparent;
-  color: rgba(255, 122, 122, 1);
+  color: #3BBD48;
   font-weight: bold;
 }
 

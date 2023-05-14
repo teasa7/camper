@@ -114,7 +114,7 @@ body {
 /* Form */
 
 .form {
-    max-width: 1140px;
+    width: 1140px;
     height: 80px;
     padding: 10px;
     background-color: white;
@@ -132,19 +132,19 @@ body {
     background-position: 15px 50%;
 }
 .form__input--location {
-    max-width: 300px;
+    width: 340px;
     background-image: url("/img/icons/location.svg");
 }
 .form__input--activity {
-    max-width: 250px;
+    width: 250px;
     background-image: url("/img/icons/active.svg");
 }
 .form__input--date {
-    max-width: 250px;
+    width: 250px;
     background-image: url("/img/icons/date.svg");
 }
 .form__input--guests {
-    max-width: 250px;
+    width: 250px;
     background-image: url("/img/icons/group.svg");
 }
 .form__label {
@@ -157,5 +157,5 @@ body {
     font-size: 16px;
 }
 .form__input::placeholder {
-    color:black;
+    color:rgba(123, 123, 123, 0.5);
 }
