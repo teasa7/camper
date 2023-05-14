@@ -23,3 +23,20 @@
     height: 50px;
     padding: 10px;
 }
+
+/* Button more */
+.button-more {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: #2bac38;
+    background-color: #8ee2964f;
+    border-radius: 10px;
+    height: 40px;
+    padding: 10px;
+    font-weight: 500;
+    transition: background-color 0.2s ease-in;
+}
+.button-more:hover {
+    background-color: #71ce7a4f;
+}

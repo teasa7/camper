@@ -12,6 +12,7 @@ body {
     padding: 0 20px;
 }
 
+/* Header */
 .header {
     padding: 20px 0 100px;
     height: 800px;
@@ -158,4 +159,84 @@ body {
 }
 .form__input::placeholder {
     color:rgba(123, 123, 123, 0.5);
+}
+
+/* Main */
+.main {
+    padding: 100px 0;
+    display: grid;
+    gap: 100px;
+}
+.section__header {
+    margin-bottom: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.section__cards {
+    display: grid;
+    gap: 30px;
+}
+.section__cards--popular {
+    grid-template-columns: repeat(6, 1fr);
+}
+.section__cards--four {
+    grid-template-columns: repeat(4, 1fr);
+}
+.title-1 {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1.5;
+}
+
+/* Card */
+.card {
+    position: relative;
+}
+.card__link {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+.card__img {
+    border-radius: 10px;
+    margin-bottom: 8px;
+    object-fit: cover;
+    width: 100%;
+}
+.card__img--hotels {
+    margin-bottom: 10px;
+}
+.card-title {
+    font-size: 16px;
+    font-weight: 500;
+    color: black;
+}
+.card__title--hotels {
+    margin-bottom: 5px;
+}
+.card__location {
+    font-size: 14px;
+    color: rgba(70, 70, 70, 0.5);
+}
+.card__footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.card__location--icon {
+    padding-left: 20px;
+    background-repeat: no-repeat;
+    background-image: url("/img/icons/location_small.svg");
+    background-position: 0 50%;
+}
+.card__rating {
+    display: flex;
+    gap: 2px;
+    align-items: center;
+}
+.form__input--location {
+    width: 340px; 
 }
