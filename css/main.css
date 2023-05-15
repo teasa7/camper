@@ -5,6 +5,7 @@
 
 body {
     font-family: 'Raleway', sans-serif;
+    color: black;
 }
 .container {
     margin: 0 auto;
@@ -270,7 +271,7 @@ body {
 }
 .card__footer--link {
     padding-left: 20px;
-    font-size: 12px;
+    font-size: 13px;
     color: rgba(70, 70, 70, 0.6);
     background-repeat: no-repeat;
     background-position: 0 50%;
@@ -316,4 +317,111 @@ body {
     margin-bottom: 8px;
     object-fit: cover;
     width: 100%;
+}
+
+/* Footer */
+.footer {
+    background-color: rgba(70, 70, 70, 0.05);
+    padding: 100px 0;
+}
+.footer__row {
+    display: grid;
+    gap: 60px;
+    grid-template-columns: repeat(3, auto);
+}
+.footer__copyright {
+    display: grid;
+    gap: 15px;
+    max-width: 350px;
+}
+.footer__logo {
+    width: 120px;
+}
+.footer__text {
+    color: rgba(70, 70, 70, 1);
+    margin-bottom: 15px;
+    font-size: 13px;
+}
+.footer__socials {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+/* Footer Nav */
+.footer_nav-wrapper {
+    display: flex;
+    gap: 60px;
+}
+.footer__nav {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.footer__nav--title {
+    font-weight: 500;
+    font-size: 18px;
+}
+.footer__nav--list {
+    display: grid;
+    gap: 10px;
+}
+.footer__nav--link {
+    color: rgba(70, 70, 70, 1);
+    font-size: 13px;
+}
+
+.footer__nav--link:hover {
+    color: #3BBD48;
+}
+
+/* Subscribe */
+.footer__subscribe {
+    max-width: 380px;
+}
+
+.footer__subscribe-title {
+    font-weight: 500;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.subscribe {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px;
+}
+.subscribe__input--wrapper {
+    position: relative;
+}
+.subscribe__input {
+    height: 70px;
+    width: 300px;
+    background-color: #fff;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-position: 10px 50%;
+    padding: 35px 50px 15px 50px;
+    background-image: url("/img/icons/mail.svg");
+}
+.subscribe__label {
+    position: absolute;
+    color: rgba(70, 70, 70, 0.6);
+    font-size: 15px;
+    font-weight: 300;
+    top: 27px;
+    left: 50px;
+    pointer-events: none;
+    transition: all 0.2s ease-in;
+}
+.subscribe__input:focus ~ .subscribe__label,
+.subscribe__input:valid ~ .subscribe__label {
+    top: 15px;
+    font-size: 14px;
+}
+.subscribe__label--top {
+    top: 15px;
+    font-size: 14px;
+}
+.subscribe__label--invalid {
+    color:red;
 }

@@ -40,3 +40,10 @@
 .button-more:hover {
     background-color: #71ce7a4f;
 }
+
+/*  */
+.button--subscribe {
+    width: 70px;
+    height: 70px;
+    padding: 20px;
+}
