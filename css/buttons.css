@@ -41,9 +41,22 @@
     background-color: #71ce7a4f;
 }
 
-/*  */
+/* Subscribe */
 .button--subscribe {
     width: 70px;
     height: 70px;
     padding: 20px;
+}
+@media (max-width: 810px) {
+    .button--search {
+        width: 100%;
+        padding: 0;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .button--big {
+        font-size: 14px;
+        padding: 10px 15px;
+    }
+    
 }
