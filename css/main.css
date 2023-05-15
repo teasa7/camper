@@ -423,5 +423,5 @@ body {
     font-size: 14px;
 }
 .subscribe__label--invalid {
-    color:red;
+    color:rgb(221, 0, 0);
 }
