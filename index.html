@@ -36,7 +36,8 @@
                         <a class="nav-list__link" href="#">Contacts</a>
                     </li>
                 </ul>
-                <div class="user">
+                <div class="nav-user">
+                    <div class="user">
                     <div class="user__contact">
                         <span class="user__hello">Hello,</span>
                         <span class="user__name">Maria Smit</span>
@@ -45,6 +46,11 @@
                         <img class="user__img" src="./img/avatar.jpg" alt="user">
                     </div>
                 </div>
+                </div>
+                
+                <button class="mobile-nav-btn">
+                    <div class="nav-icon"></div>
+                </button>
             </nav>
             <div class="header__content">
                 <h1 class="header__title">Travel around the world</h1>
@@ -89,6 +95,17 @@
 
 
     </header>
+    <div class="mobile-nav-fade"></div>
+    <div class="mobile-nav">
+        <ul class="mobile-nav__list">
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="#">Hotels</a></li>
+            <li><a href="#">Camping</a></li>
+            <li><a href="#">Booking</a></li>
+            <li><a href="#">Tours</a></li>
+            <li><a href="#">Contacts</a></li>
+        </ul>
+    </div>
     <main class="main">
         <!-- Popular -->
         <section class="section">
@@ -403,6 +420,7 @@
     <script src="./libs/Easepick/js/easepick.min.js"></script>
     <script src="./js/input-dest.js"></script>
     <script src="./js/main.js"></script>
+    <script src="./js/mobile-nav.js"></script>
 </body>
 
 </html>

@@ -1,0 +1,11 @@
+@media (max-width: 950px) {
+	.mobile-nav-btn {
+		display: block;
+	}
+    .nav-list {
+		display: none;
+	}
+    .nav-user {
+		display: none;
+	}
+}
