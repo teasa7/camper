@@ -1,10 +1,10 @@
 /* Nav Icon */
 .mobile-nav-btn {
 	--time: 0.1s;
-	--width: 40px;
-	--height: 30px;
+	--width: 30px;
+	--height: 20px;
 	--line-height: 4px;
-	--color: #fff;
+	--color: #3BBD48;
     
 	height: var(--height);
 	width: var(--width);

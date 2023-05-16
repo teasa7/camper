@@ -20,6 +20,18 @@
     }
     .form__input--guests {
         width: 150px;
+    } 
+}
+@media (max-width: 1050px) {
+    .section__cards--four {
+        grid-template-columns: repeat(2, 1fr);
+        
+    }
+    .card__footer {
+        align-items: start;
+    }
+    .section__cards--two {
+        grid-template-columns: 1fr;
     }
 }
 @media (max-width: 950px) {
@@ -44,6 +56,26 @@
     .nav-user {
 		display: none;
 	}
+    .main {
+        row-gap: 50px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .section__header {
+        margin-bottom: 40px;
+    }
+    .title-1 {
+        font-size: 25px;
+    }
+    .company__title {
+        font-size: 25px;
+    } 
+    .card__img {
+        width: 100%;
+    }
+    .section__cards--popular {
+        grid-template-columns: repeat(3, 1fr);
+    }
 }
 @media (max-width: 810px) {
     .form {
@@ -54,9 +86,52 @@
     .form__input-wrapper {
         width: 100%;
     }
+    .card__img--h100 {
+        height: 100%;
+        object-fit: cover;
+    }
+    .company {
+        gap: 20px;
+        grid-template-columns: 1fr;
+    }
+    .company__desk {
+        gap: 20px;
+    }
+}
+@media (max-width: 600px) {
+    .section__cards--popular {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .card__title--big {
+        font-size: 16px;
+    }
+    .card__text {
+        font-size: 14px;
+    }
+    .company__text {
+        font-size: 14px;
+    }
+    .card__footer--link {
+        font-size: 11px;
+    }
+    .card__location {
+        font-size: 12px;
+    }
 }
 @media (max-width: 500px) {
     .container--header {
         row-gap: 80px;
     }
+    .section__cards--four {
+        grid-template-columns: 1fr;
+    }
+    .card--wide {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+}
+@media (max-width:440px) {
+    .section__cards--popular {
+        grid-template-columns: 1fr;
+    }   
 }
