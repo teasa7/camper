@@ -137,19 +137,19 @@ body {
 }
 .form__input--location {
     width: 340px;
-    background-image: url("/img/icons/location.svg");
+    background-image: url("../img/icons/location.svg");
 }
 .form__input--activity {
     width: 250px;
-    background-image: url("/img/icons/active.svg");
+    background-image: url("../img/icons/active.svg");
 }
 .form__input--date {
     width: 250px;
-    background-image: url("/img/icons/date.svg");
+    background-image: url("../img/icons/date.svg");
 }
 .form__input--guests {
     width: 250px;
-    background-image: url("/img/icons/group.svg");
+    background-image: url("../img/icons/group.svg");
 }
 .form__label {
     font-size: 14px;
@@ -240,7 +240,7 @@ body {
 .card__location--icon {
     padding-left: 20px;
     background-repeat: no-repeat;
-    background-image: url("/img/icons/location_small.svg");
+    background-image: url("../img/icons/location_small.svg");
     background-position: 0 50%;
 }
 .card__rating {
@@ -279,13 +279,13 @@ body {
     background-position: 0 50%;
 }
 .card__footer--link--date {
-    background-image: url("/img/icons/date_small.svg");
+    background-image: url("../img/icons/date_small.svg");
 }
 .card__footer--link--author {
-    background-image: url("/img/icons/author.svg");
+    background-image: url("../img/icons/author.svg");
 }
 .card__footer--link--comments {
-    background-image: url("/img/icons/comment.svg");
+    background-image: url("../img/icons/comment.svg");
 }
 
 /* About Us */
@@ -404,7 +404,7 @@ body {
     background-repeat: no-repeat;
     background-position: 10px 50%;
     padding: 35px 50px 15px 50px;
-    background-image: url("/img/icons/mail.svg");
+    background-image: url("../img/icons/mail.svg");
 }
 .subscribe__label {
     position: absolute;

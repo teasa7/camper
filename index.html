@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="./css/media.css">
     <link rel="stylesheet" href="./libs/AutoComplete/css/autoComplete.01.css">
     <link rel="stylesheet" href="./libs/CustomSelect/css/custom-select.css">
+    <link rel="shortcut icon" href="img/icons/logo_small.svg" type="image/x-icon">
     <title>Camper - Ваш туристический гид</title>
 </head>
 
@@ -17,7 +18,7 @@
         <div class="container container--header">
             <nav class="nav">
                 <a class="logo" href="index.html">
-                    <img src="/img/icons/logo.svg" alt="Camper">
+                    <img src="img/icons/logo.svg" alt="Camper">
                 </a>
                 <ul class="nav-list">
                     <li class="nav-list__item">
@@ -43,23 +44,23 @@
                         <span class="user__name">Maria Smit</span>
                     </div>
                     <div class="user__avatar">
-                        <img class="user__img" src="./img/avatar.jpg" alt="user">
+                        <img class="user__img" src="img/avatar.jpg" alt="user">
                     </div>
                 </div>
                 </div>
                 
                 <button class="mobile-nav-btn">
-                    <div class="nav-icon"></div>
+                    <span class="nav-icon"></span>
                 </button>
             </nav>
             <div class="header__content">
                 <h1 class="header__title">Travel around the world</h1>
                 <button class="button button--big">
-                    <img src="/img/icons/globe.svg">
+                    <img src="img/icons/globe.svg" alt="Global">
                     <span>Start the journey</span>
                 </button>
             </div>
-            <form class="form" action="">
+            <form class="form">
                 <div class="form__input-wrapper form__input--location">
                     <label for="location" class="form__label">Location</label>
                     <input autocomplete="off" type="text" class="form__input" name="location" id="location" placeholder="Show nearby places">    
@@ -79,8 +80,8 @@
                     </select>
                 </div>
                 <div class="form__input-wrapper form__input--guests">
-                    <label for="group" class="form__label">Guests</label>
-                    <select name="activity" id="activity" class="form__select">
+                    <label for="guest" class="form__label">Guests</label>
+                    <select name="guest" id="guest" class="form__select">
                         <option value="1">1 guest</option>
                         <option value="2">2 guest</option>
                         <option value="3">3 guests</option>
@@ -88,7 +89,7 @@
                     </select>
                 </div>
                 <button class="button button--search">
-                    <img src="/img/icons/search.svg" alt="Search">
+                    <img src="img/icons/search.svg" alt="Search">
                 </button>
             </form>
         </div>
@@ -116,37 +117,37 @@
                 <div class="section__cards section__cards--popular">
                     <article class="card">
                         <a href="#" class="card__link"></a>
-                        <img class="card__img" src="/img/popular/01.jpg" alt="Popular place">
+                        <img class="card__img" src="img/popular/01.jpg" alt="Popular place">
                         <h3 class="card-title">Baikal</h3>
                         <div class="card__location">Irkutsk region, Russia</div>
                     </article>
                     <article class="card">
                         <a href="#" class="card__link"></a>
-                        <img class="card__img" src="/img/popular/02.jpg" alt="Popular place">
+                        <img class="card__img" src="img/popular/02.jpg" alt="Popular place">
                         <h3 class="card-title">Troll tongue</h3>
                         <div class="card__location">Odda, Norway</div>
                     </article>
                     <article class="card">
                         <a href="#" class="card__link"></a>
-                        <img class="card__img" src="/img/popular/03.jpg" alt="Popular place">
+                        <img class="card__img" src="img/popular/03.jpg" alt="Popular place">
                         <h3 class="card-title">Majestic Mount of the Sun</h3>
                         <div class="card__location">Nizwa, Oman</div>
                     </article>
                     <article class="card">
                         <a href="#" class="card__link"></a>
-                        <img class="card__img" src="/img/popular/04.jpg" alt="Popular place">
+                        <img class="card__img" src="img/popular/04.jpg" alt="Popular place">
                         <h3 class="card-title">Mu Kang Chai</h3>
                         <div class="card__location">Sapa, Vietnam</div>
                     </article>
                     <article class="card">
                         <a href="#" class="card__link"></a>
-                        <img class="card__img" src="/img/popular/05.jpg" alt="Popular place">
+                        <img class="card__img" src="img/popular/05.jpg" alt="Popular place">
                         <h3 class="card-title">Chui-oozy</h3>
                         <div class="card__location">Altai, Russia</div>
                     </article>
                     <article class="card">
                         <a href="#" class="card__link"></a>
-                        <img class="card__img" src="/img/popular/06.jpg" alt="Popular place">
+                        <img class="card__img" src="img/popular/06.jpg" alt="Popular place">
                         <h3 class="card-title">Hillier</h3>
                         <div class="card__location">Middle Island, Australia</div>
                     </article>
@@ -160,67 +161,67 @@
                     <h2 class="title-1">Hotels</h2>
                     <a href="" class="button-more">
                         View all
-                        <img src="/img/icons/arrow.svg" alt="More">
+                        <img src="img/icons/arrow.svg" alt="More">
                     </a>
                 </header>
                 <div class="section__cards section__cards--four">
                     <article class="card card--hotel">
                         <a href="#" class="card__link"></a>
-                        <img class="card__img card__img--hotels" src="/img/hotels/01.jpg" alt="Popular place">
+                        <img class="card__img card__img--hotels" src="img/hotels/01.jpg" alt="Popular place">
                         <h3 class="card-title card__title--hotels">Innvista Hotels Belek</h3>
                         <footer class="card__footer">
                             <div class="card__location card__location--icon">Belek, Türkiye</div>
                             <div class="card__rating">
-                                <img src="/img/icons/full_star.svg" alt="Star">
-                                <img src="/img/icons/full_star.svg" alt="Star">
-                                <img src="/img/icons/full_star.svg" alt="Star">
-                                <img src="/img/icons/full_star.svg" alt="Star">
-                                <img src="/img/icons/full_star.svg" alt="Star">
+                                <img src="img/icons/full_star.svg" alt="Star">
+                                <img src="img/icons/full_star.svg" alt="Star">
+                                <img src="img/icons/full_star.svg" alt="Star">
+                                <img src="img/icons/full_star.svg" alt="Star">
+                                <img src="img/icons/full_star.svg" alt="Star">
                             </div>
                         </footer>
                     </article>
                     <article class="card card--hotel">
                         <a href="#" class="card__link"></a>
-                        <img class="card__img card__img--hotels" src="/img/hotels/02.jpg" alt="Popular place">
+                        <img class="card__img card__img--hotels" src="img/hotels/02.jpg" alt="Popular place">
                         <h3 class="card-title card__title--hotels">Rixos Borovoe Hotel</h3>
                         <footer class="card__footer">
                             <div class="card__location card__location--icon">Sharm Ash Sheikh, Egypt</div>
                             <div class="card__rating">
-                                <img src="/img/icons/full_star.svg" alt="Star">
-                                <img src="/img/icons/full_star.svg" alt="Star">
-                                <img src="/img/icons/full_star.svg" alt="Star">
-                                <img src="/img/icons/full_star.svg" alt="Star">
-                                <img src="/img/icons/empty_star.svg" alt="Empty star">
+                                <img src="img/icons/full_star.svg" alt="Star">
+                                <img src="img/icons/full_star.svg" alt="Star">
+                                <img src="img/icons/full_star.svg" alt="Star">
+                                <img src="img/icons/full_star.svg" alt="Star">
+                                <img src="img/icons/empty_star.svg" alt="Empty star">
                             </div>
                         </footer>
                     </article>
                     <article class="card card--hotel">
                         <a href="#" class="card__link"></a>
-                        <img class="card__img card__img--hotels" src="/img/hotels/03.jpg" alt="Popular place">
+                        <img class="card__img card__img--hotels" src="img/hotels/03.jpg" alt="Popular place">
                         <h3 class="card-title card__title--hotels">Hotel Side Star Beach</h3>
                         <footer class="card__footer">
                             <div class="card__location card__location--icon">Beach, Türkiye</div>
                             <div class="card__rating">
-                                <img src="/img/icons/full_star.svg" alt="Star">
-                                <img src="/img/icons/full_star.svg" alt="Star">
-                                <img src="/img/icons/full_star.svg" alt="Star">
-                                <img src="/img/icons/full_star.svg" alt="Star">
-                                <img src="/img/icons/empty_star.svg" alt="Empty star">
+                                <img src="img/icons/full_star.svg" alt="Star">
+                                <img src="img/icons/full_star.svg" alt="Star">
+                                <img src="img/icons/full_star.svg" alt="Star">
+                                <img src="img/icons/full_star.svg" alt="Star">
+                                <img src="img/icons/empty_star.svg" alt="Empty star">
                             </div>
                         </footer>
                     </article>
                     <article class="card card--hotel">
                         <a href="#" class="card__link"></a>
-                        <img class="card__img card__img--hotels" src="/img/hotels/04.jpg" alt="Popular place">
+                        <img class="card__img card__img--hotels" src="img/hotels/04.jpg" alt="Popular place">
                         <h3 class="card-title card__title--hotels">Intercontinental Shanghai Wonderland</h3>
                         <footer class="card__footer">
                             <div class="card__location card__location--icon">Shanghai, China</div>
                             <div class="card__rating">
-                                <img src="/img/icons/full_star.svg" alt="Star">
-                                <img src="/img/icons/full_star.svg" alt="Star">
-                                <img src="/img/icons/full_star.svg" alt="Star">
-                                <img src="/img/icons/full_star.svg" alt="Star">
-                                <img src="/img/icons/full_star.svg" alt="Star">
+                                <img src="img/icons/full_star.svg" alt="Star">
+                                <img src="img/icons/full_star.svg" alt="Star">
+                                <img src="img/icons/full_star.svg" alt="Star">
+                                <img src="img/icons/full_star.svg" alt="Star">
+                                <img src="img/icons/full_star.svg" alt="Star">
                             </div>
                         </footer>
                     </article>
@@ -234,33 +235,33 @@
                     <h2 class="title-1">Travel Tips</h2>
                     <a href="" class="button-more">
                         View all
-                        <img src="/img/icons/arrow.svg" alt="More">
+                        <img src="img/icons/arrow.svg" alt="More">
                     </a>
                 </header>
                 <div class="section__cards section__cards--two">
                     <article class="card card--wide">
                         <a href="#" class="card__link"></a>
-                        <img class="card__img card__img--no-margin card__img--h100" src="/img/tips/01.jpg" alt="Tip">
+                        <img class="card__img card__img--no-margin card__img--h100" src="img/tips/01.jpg" alt="Tip">
                         <div class="card__desk">
                             <h3 class="card__title card__title--big">Learn a couple of phrases</h3>
                             <p class="card__text">Try to learn the basic phrases in the language of the country you will be traveling in so that you can communicate with the locals if necessary.</p>
                             <footer class="card__footer card__footer--wide">
                                 <a href="#" class="card__footer--link card__footer--link--date">Today</a>
                                 <a href="#" class="card__footer--link card__footer--link--author">Ivan Severov</a>
-                                <a href="#"class="card__footer--link card__footer--link--comments">2</a>
+                                <a href="#" class="card__footer--link card__footer--link--comments">2</a>
                             </footer>
                         </div>
                     </article>
                     <article class="card card--wide">
                         <a href="#" class="card__link"></a>
-                        <img class="card__img card__img--no-margin card__img--h100" src="/img/tips/02.jpg" alt="Tip">
+                        <img class="card__img card__img--no-margin card__img--h100" src="img/tips/02.jpg" alt="Tip">
                         <div class="card__desk">
                             <h3 class="card__title card__title--big">Traveling isn't just for the rich</h3>
                             <p class="card__text">Do not think that only rich people have the opportunity to travel. If you have a desire, then it will not be difficult to find money for a trip, and there are many economy offers.</p>
                             <footer class="card__footer card__footer--wide">
                                 <a href="#" class="card__footer--link card__footer--link--date">Yesterday</a>
                                 <a href="#" class="card__footer--link card__footer--link--author">Helen Gibson</a>
-                                <a href="#"class="card__footer--link card__footer--link--comments">5</a>
+                                <a href="#" class="card__footer--link card__footer--link--comments">5</a>
                             </footer>
                         </div>
                     </article>
@@ -274,28 +275,28 @@
                     <h2 class="title-1">Activities</h2>
                     <a href="" class="button-more">
                         View all
-                        <img src="/img/icons/arrow.svg" alt="More">
+                        <img src="img/icons/arrow.svg" alt="More">
                     </a>
                 </header>
                 <div class="section__cards section__cards--four">
                     <article class="card">
                         <a href="#" class="card__link"></a>
-                        <img class="card__img" src="/img/activities/01.jpg" alt="Popular place">
+                        <img class="card__img" src="img/activities/01.jpg" alt="Popular place">
                         <h3 class="card-title">Diving</h3>
                     </article>
                     <article class="card">
                         <a href="#" class="card__link"></a>
-                        <img class="card__img" src="/img/activities/02.jpg" alt="Popular place">
+                        <img class="card__img" src="img/activities/02.jpg" alt="Popular place">
                         <h3 class="card-title">Alpinism</h3>
                     </article>
                     <article class="card">
                         <a href="#" class="card__link"></a>
-                        <img class="card__img" src="/img/activities/03.jpg" alt="Popular place">
+                        <img class="card__img" src="img/activities/03.jpg" alt="Popular place">
                         <h3 class="card-title">Kayaking</h3>
                     </article>
                     <article class="card">
                         <a href="#" class="card__link"></a>
-                        <img class="card__img" src="/img/activities/04.jpg" alt="Popular place">
+                        <img class="card__img" src="img/activities/04.jpg" alt="Popular place">
                         <h3 class="card-title">Сamping</h3>
                     </article>
                 </div>
@@ -311,12 +312,12 @@
                         <div class="company__button">
                             <a href="" class="button-more">
                                 Read more
-                                <img src="/img/icons/arrow.svg" alt="More">
+                                <img src="img/icons/arrow.svg" alt="More">
                             </a>    
                         </div>
                         
                     </div>
-                    <img src="/img/company.jpg" class="company__img" alt="Company">
+                    <img src="img/company.jpg" class="company__img" alt="Company">
                 </div>   
             </div>
         </section>
@@ -325,22 +326,22 @@
         <div class="container">
             <div class="footer__row">
                 <div class="footer__copyright">
-                    <img class="footer__logo" src="/img/icons/logo.svg" alt="Logo" >
+                    <img class="footer__logo" src="img/icons/logo.svg" alt="Logo" >
                     <p class="footer__text">There are many interesting and useful things in our social networks. We will be glad to see you</p>
                     <ul class="footer__socials">
                         <li class="footer__socials--item">
                             <a href="#" class="footer__socials--link">
-                                <img src="/img/icons/facebook.svg" alt="Facebook">
+                                <img src="img/icons/facebook.svg" alt="Facebook">
                             </a>
                         </li>
                         <li class="footer__socials--item">
                             <a href="#" class="footer__socials--link">
-                                <img src="/img/icons/instagram.svg" alt="Instagram">
+                                <img src="img/icons/instagram.svg" alt="Instagram">
                             </a>
                         </li>
                         <li class="footer__socials--item">
                             <a href="#" class="footer__socials--link">
-                                <img src="/img/icons/telegram.svg" alt="Telegram">
+                                <img src="img/icons/telegram.svg" alt="Telegram">
                             </a>
                         </li>
                     </ul>
@@ -400,14 +401,14 @@
                 </div>
                 <div class="footer__subscribe">
                     <h3 class="footer__subscribe-title">Subscribe to the newsletter</h3>
-                    <form action="" class="subscribe">
+                    <form class="subscribe">
                         <div class="subscribe__input--wrapper">
-                            <input type="email" class="subscribe__input" required>
-                            <label for="" class="subscribe__label">Your Email</label>
+                            <input type="email" class="subscribe__input" name="email_user" id="email_user" required>
+                            <label for="email_user" class="subscribe__label">Your Email</label>
                         </div>
                         <div class="subcribe__button--wrapper">
                             <button class="button button--subscribe">
-                                <img src="/img/icons/arrow_big.svg" alt="Arrow">
+                                <img src="img/icons/arrow_big.svg" alt="Arrow">
                             </button>
                         </div>
                     </form>
