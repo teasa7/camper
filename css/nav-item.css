@@ -5,16 +5,15 @@
 	--height: 20px;
 	--line-height: 4px;
 	--color: #3BBD48;
-    
 	height: var(--height);
 	width: var(--width);
 	display: flex;
 	justify-content: center;
 	align-items: center;
-    
 }
 
 .nav-icon {
+	display: block;  
 	position: relative;
 	width: var(--width);
 	height: var(--line-height);
@@ -31,7 +30,6 @@
     border-radius: 20px;
 	width: var(--width);
 	height: var(--line-height);
-
 	background-color: var(--color);
 	transition: transform var(--time) ease-in,
 		top var(--time) linear var(--time);
